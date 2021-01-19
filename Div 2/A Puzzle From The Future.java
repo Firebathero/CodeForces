@@ -54,6 +54,7 @@ public class Template {
                     prev = int_b + 1;
                 } else {
                     a.append('0');
+		    prev = int_b;
                 }
             }
             pw.println(a.toString());
